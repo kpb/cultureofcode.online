@@ -1,5 +1,5 @@
 ---
-title: javascripting
+title: Javascripting
 date: 2016-03-04
 drafe: true
 ---

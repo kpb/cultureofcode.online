@@ -5,7 +5,7 @@
   <!-- whatever's in content/_index.md -->
   {{ .Content }}
 
-  {{ range first 10 .Pages }}
+  {{ range first 10 (where .Pages "Type" "!=" "page") }}
   <ul class="list-unstyled">
     <li>
       <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
