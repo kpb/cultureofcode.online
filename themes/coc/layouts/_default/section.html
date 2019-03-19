@@ -2,14 +2,16 @@
 
 <main role="main" class="container pt-3 main">
 
-  <!-- whatever's in content/_index.md -->
-  {{ .Content }}
-
-  {{ range first 10 (where .Pages "Type" "!=" "page") }}
+  <h2>{{ .Section }}</h2>
+  
+  {{ range .Pages }}
   <ul class="list-unstyled">
     <li>
       <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
       <p>{{ .Summary }}</p>
+        {{ if .Truncated }}
+        <p><a href="{{ .RelPermalink }}">… read more</a></p>
+        {{ end }}
     </li>
   </ul>
   {{ end }}
