@@ -1,0 +1,18 @@
+
+body {
+  font-family: "Crimson Text", serif !default;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+footer {
+  font-size: 85%;
+}
+
+.post-meta {
+  color: #828282;
+}
