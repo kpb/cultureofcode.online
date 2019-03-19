@@ -8,7 +8,8 @@
   {{ range first 10 (where .Pages "Type" "!=" "page") }}
   <ul class="list-unstyled">
     <li>
-      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      <p>{{ .PublishDate.Format "2 January 2006" }}
+      <p class="display-4"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
       <p>{{ .Summary }}</p>
     </li>
   </ul>
