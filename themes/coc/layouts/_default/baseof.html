@@ -51,7 +51,7 @@
           <ul class="list-unstyled">
             <li><u>Categories</u></li>
 
-            {{ range $elem_value := .Site.Sections }}
+            {{ range sort .Site.Sections "Section" "asc" }}
             <li>
               <a href="{{ .Section | relURL }}">{{ .Section }}</a>
             </li>
