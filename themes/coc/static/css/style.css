@@ -42,7 +42,8 @@ footer {
 
 .post-meta {
   font-size: 1.6rem;
-  color: #828282; }
+  color: #828282;
+}
 
 blockquote {
   color: #828282;
@@ -51,5 +52,3 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 }
-
-
