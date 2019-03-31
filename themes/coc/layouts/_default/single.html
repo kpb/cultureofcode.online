@@ -2,7 +2,14 @@
 
 <main role="main" class="container pt-3 main">
 
-  <!-- whatever's in content/_index.md -->
+  <h2>{{ .Title }}</h2>
+  <p class="post-meta">
+    by <a href="{{ .Site.Params.authorUrl }}">{{ .Site.Params.authorDisplayName }}</a> |
+    posted in: {{ .Section }} |
+    {{ .PublishDate.Format "2 January 2006" }}
+  </p>
+  
+  <!-- whatever's in content/<section>/<post>.md -->
   {{ .Content }}
 
 </main>

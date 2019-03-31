@@ -4,9 +4,7 @@ date: 2016-07-01
 draft: false
 ---
 
-### Lombok is...
-
-this week's muse. (A weekly featured project/product that will make your short life better.)
+(A weekly featured project/product that will make your short life better.)
 
 
 Would you give me an uncomfortably long hug if I told you that you never had to write another

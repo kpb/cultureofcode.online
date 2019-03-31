@@ -4,9 +4,7 @@ date: 2016-02-24
 draft: false
 ---
 
-### Remark is...
-
-this week's muse. (A weekly featured project/product that will make your short life better.)
+(A weekly featured project/product that will make your short life better.)
 
 
 You need to make a presentation. Don't use a bloated, [legacy presentation
