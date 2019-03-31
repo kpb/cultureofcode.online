@@ -1,10 +1,10 @@
 ---
 title: Javascripting
 date: 2016-03-04
-drafe: true
+draft: false
 ---
 
-## Javascripting is...
+### Javascripting is...
 
 this week's muse. (A weekly featured project/product that will make your short life better.)
 

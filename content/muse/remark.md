@@ -1,10 +1,10 @@
 ---
 title: Remark
 date: 2016-02-24
-draft: true
+draft: false
 ---
 
-## Remark is...
+### Remark is...
 
 this week's muse. (A weekly featured project/product that will make your short life better.)
 

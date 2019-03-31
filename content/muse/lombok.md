@@ -4,7 +4,7 @@ date: 2016-07-01
 draft: false
 ---
 
-## Lombok is...
+### Lombok is...
 
 this week's muse. (A weekly featured project/product that will make your short life better.)
 
