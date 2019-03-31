@@ -24,8 +24,8 @@
 
     <header class="container header py-3">
       <div class="row">
-        <div class="col-md-10"><h1>{{ .Site.Title }}</h1></div>
-        <div class="col-md-2 text-right"><h3><a href="{{ "about" | absURL }}">about</a></h3></div>
+        <div class="col-md-10"><a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a></div>
+        <div class="col-md-2 text-right"><h2><a href="{{ "about" | absURL }}">about</a></h2></div>
       </div>
     </header>
     <div class="container-fluid border-bottom"></div>
