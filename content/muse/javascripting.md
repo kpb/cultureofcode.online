@@ -1,12 +1,12 @@
 ---
-title: Javascripting
+title: Javascripting...is this week's muse
 date: 2016-03-04
 draft: false
 ---
 
 ### Javascripting is...
 
-this week's muse. (A weekly featured project/product that will make your short life better.)
+this week's muse. (A weekly featured project/product that will make your short life better.) <!--more-->
 
 
 [Seth Vincent](https://github.com/sethvincent) has created a [fantastic

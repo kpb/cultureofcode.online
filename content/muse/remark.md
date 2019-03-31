@@ -1,5 +1,5 @@
 ---
-title: Remark
+title: Remark...is this week's muse
 date: 2016-02-24
 draft: false
 ---
