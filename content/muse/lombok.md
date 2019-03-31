@@ -1,5 +1,5 @@
 ---
-title: Lombok
+title: Lombok...is this week's muse
 date: 2016-07-01
 draft: false
 ---

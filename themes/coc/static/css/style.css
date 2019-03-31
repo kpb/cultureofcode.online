@@ -41,15 +41,13 @@ footer {
 }
 
 .post-meta {
-  color: #828282;
-}
+  font-size: 1.6rem;
+  color: #828282; }
 
 blockquote {
-  font-family: "Crimson Text", serif !default;
   color: #828282;
   border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
-  /* font-size: 21.375px; */
+  padding-left: 1.5rem;
   letter-spacing: -1px;
   font-style: italic;
 }
