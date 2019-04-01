@@ -1,10 +1,10 @@
 ---
 title:  One-Way Hash
 date: 2016-01-20
-category: culture
+draft: false
 ---
 
-![one-way](/image/one-way.png)
+{{< tweet 689901039131070466 >}}
 
 Let me tell you about SHA-HAHAHAHAHA...
 
