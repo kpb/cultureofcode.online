@@ -5,7 +5,8 @@
   <!-- whatever's in content/_index.md -->
   {{ .Content }}
 
-  {{ range first 10 (where .Pages "Type" "!=" "page") }}
+  {{ $paginator := .Paginate (where .Pages "Type" "!=" "page") }}
+  {{ range $paginator.Pages }}
   <ul class="list-unstyled">
     <li>
       <p class="post-meta">{{ .PublishDate.Format "2 January 2006" }}</p>
@@ -16,6 +17,16 @@
     </li>
   </ul>
   {{ end }}
+
+  <div class="pagination pb-3">
+    <button type="button" class="btn btn-outline-dark disabled">
+      page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+    </button>
+
+    {{ range $paginator.Pagers }}
+    <a class="btn btn-outline-dark ml-2" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>
+    {{ end }}
+  </div>
 
 </main>
 

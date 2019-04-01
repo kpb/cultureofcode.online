@@ -53,3 +53,7 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 }
+
+.pagination > .btn {
+  font-size: 1.4rem;
+}
