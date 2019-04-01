@@ -18,15 +18,15 @@
   </ul>
   {{ end }}
 
-  <p>
-    {{ if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}">newer posts</a>
-    {{ end }}
+  <div class="pagination pb-3">
+    <button type="button" class="btn btn-outline-dark disabled">
+      page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+    </button>
 
-    {{ if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}">older posts</a>
+    {{ range $paginator.Pagers }}
+    <a class="btn btn-outline-dark ml-2" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>
     {{ end }}
-  </p>
+  </div>
 
 </main>
 
