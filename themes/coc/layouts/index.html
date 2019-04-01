@@ -5,7 +5,8 @@
   <!-- whatever's in content/_index.md -->
   {{ .Content }}
 
-  {{ range first 10 (where .Pages "Type" "!=" "page") }}
+  {{ $paginator := .Paginate (where .Pages "Type" "!=" "page") }}
+  {{ range $paginator.Pages }}
   <ul class="list-unstyled">
     <li>
       <p class="post-meta">{{ .PublishDate.Format "2 January 2006" }}</p>
@@ -16,6 +17,16 @@
     </li>
   </ul>
   {{ end }}
+
+  <p>
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">newer posts</a>
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">older posts</a>
+    {{ end }}
+  </p>
 
 </main>
 
