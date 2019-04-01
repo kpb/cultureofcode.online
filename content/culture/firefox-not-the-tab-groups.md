@@ -10,7 +10,7 @@ reason I don't use Chrome, the other being support for privacy in the [Mozilla
 Manifesto](https://www.mozilla.org/en-US/about/manifesto/). I always have a pile of tab-groups open:
 
 
-![tab-groups]({{ "/assets/image/tab-groups-768x355.png" | absolute_url }})
+![tab-groups](/image/tab-groups-768x355.png)
 
 The good news is that in the [announcement](https://support.mozilla.org/en-US/kb/tab-groups-removal), Mozilla includes a
 link to the new [tab-groups](https://addons.mozilla.org/en-US/firefox/addon/tab-groups-panorama/) add-on, which will
