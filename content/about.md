@@ -5,7 +5,8 @@ layout: page
 draft: false
 ---
 
-Written and maintained by me/[Kenneth][kenneth-home-page] using the excellent static site generator, [Hugo][hugo-home-page].
+Written and maintained by me/[Kenneth][kenneth-home-page] using the excellent static site generator,
+[Hugo][hugo-home-page].
 
 Hit me up on [twitter][kenneth-twitter], [email][kenneth-email], etc.
 
