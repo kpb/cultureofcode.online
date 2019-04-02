@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <!-- create partials for head nav footer scripts... -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One" rel="stylesheet">
+    <link rel="canonical" href="https://cultureofcode.com/">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "index.xml" | absURL }}">
+
+    <title>{{ .Site.Title }}</title>
+  </head>
+  <body>
+
+    <header class="container header py-3">
+      <div class="row">
+        <div class="col-md-10"><h1 class="display-3"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1></div>
+        <div class="col-md-2 text-right"><h2 class="display-4"><a href="{{ "about" | absURL }}">about</a></h2></div>
+      </div>
+    </header>
+    <div class="container-fluid border-bottom"></div>
+
+    {{ block "main" . }}
+
+    {{ end }}
+
+    <div class="container-fluid border-bottom"></div>
+
+    <footer class="container footer pt-3 font-weight-light">
+      <div class="row">
+
+        <div class="col-md-6">
+          <p>Digital fuel for an empty tank world.</p>
+          <p>
+            A curated guide through the wilderness of technology, agile methods, and development tools.
+          </p>
+          <p><em>Fire for the culture of code.</em></p>
+        </div>
+
+        <div class="col-md-3">
+          <ul class="list-unstyled">
+            <li><u>Categories</u></li>
+
+            {{ range sort .Site.Sections "Section" "asc" }}
+            <li>
+              <a href="{{ .Section | relURL }}">{{ .Section }}</a>
+            </li>
+            {{ end }}
+
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul class="fa-ul list-unstyled">
+            <li>
+              <span class="fa-li"><i class="fas fa-rss-square"></i></span>
+              subscribe <a href="{{ "index.xml" | absURL }}">via RSS</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-envelope-square"></i></span>
+              <a href="mailto:hello@cultureofcode.com">hello@cultureofcode.com</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fab fa-twitter"></i></span>
+              <a href="https://twitter.com/kennethpbowen">kennethpbowen</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fab fa-github"></i></span>
+              <a href="https://github.com/kpb">kpb</a>
+            </li>
+          </ul>
+        </div>
+
+      </div> <!-- end row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            <small>
+              <a href="https://cultureofcode.com">Culture of Code</a> by <a href="mailto:kenneth@kennethbowen.com">Kenneth Bowen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>

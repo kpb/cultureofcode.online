@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<main role="main" class="container pt-3 main">
+
+  <!-- whatever's in content/_index.md -->
+  {{ .Content }}
+
+  {{ $paginator := .Paginate (where .Pages "Type" "!=" "page") }}
+  {{ range $paginator.Pages }}
+  <ul class="list-unstyled">
+    <li>
+      <p class="post-meta">{{ .PublishDate.Format "2 January 2006" }}</p>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>
+          {{ .Description }}
+        </p>
+    </li>
+  </ul>
+  {{ end }}
+
+  <div class="pagination pb-3">
+    <button type="button" class="btn btn-outline-dark disabled">
+      page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+    </button>
+
+    {{ range $paginator.Pagers }}
+    <a class="btn btn-outline-dark ml-2" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>
+    {{ end }}
+  </div>
+
+</main>
+
+{{ end }}

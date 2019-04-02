@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<main role="main" class="container pt-3 main">
+
+  <h2>{{ .Section }}</h2>
+  
+  {{ range .Pages }}
+  <ul class="list-unstyled">
+    <li>
+      <p class="post-meta">{{ .PublishDate.Format "2 January 2006" }}</p>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </li>
+  </ul>
+  {{ end }}
+
+</main>
+
+{{ end }}
