@@ -8,7 +8,9 @@ When you need to serve something up from the command line.
 
 We've all done something like:
 
-     $ ruby -run -ehttpd . -p8000
+```bash
+$ ruby -run -ehttpd . -p8000
+```
 
 Well, [William Bowers][] has put together the 
 [mother of all lists of one line, static HTTP servers][one line servers]. Go forth and serve.

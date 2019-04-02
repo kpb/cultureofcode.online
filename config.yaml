@@ -3,6 +3,11 @@ languageCode: en-us
 title: "Culture of Code"
 theme: coc
 paginate: 7
+
+pygmentsCodefences: true
+pygmentsStyle: friendly
+pygmentsCodefencesGuessSyntax: true
+
 params:
   authorDisplayName: kenneth
   authorUrl: https://kennethbowen.com
