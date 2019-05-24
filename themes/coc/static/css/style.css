@@ -65,6 +65,10 @@ blockquote {
   font-size: 1.4rem;
 }
 
+.pagination  .current-page {
+  color: #333;
+}
+
 /* Sticky Footer */
 html, body {
   height: 100%;

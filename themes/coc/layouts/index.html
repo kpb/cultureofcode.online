@@ -19,13 +19,19 @@
   {{ end }}
 
   <div class="pagination pb-3">
-    <button type="button" class="btn btn-outline-dark disabled">
+   <!-- <p>
       page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
-    </button>
+    </p>-->
 
-    {{ range $paginator.Pagers }}
-    <a class="btn btn-outline-dark ml-2" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>
-    {{ end }}
+    <p>
+      {{ range $paginator.Pagers }}
+      <a class="ml-2{{ if eq . $paginator }} current-page{{ end }}" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>&nbsp;&nbsp;|
+      {{ end }}
+
+      {{ if $paginator.HasNext }}
+      <a class="ml-2" href="{{ $paginator.Next.URL }}">next</a>
+      {{ end }}
+    </p>
   </div>
 
 </main>
