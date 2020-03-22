@@ -5,13 +5,13 @@
   <!-- whatever's in content/_index.md -->
   {{ .Content }}
 
-  {{ $paginator := .Paginate (where .Pages "Type" "!=" "page") }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
   {{ range $paginator.Pages }}
   <ul class="list-unstyled">
     <li>
       <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
       <p>
-        <span class="post-meta">{{ .Lastmod.Format "2 January 2006" }}
+        <span class="post-meta">{{ .Lastmod.Format "2 January 2006" }}{{ with .Description }} &mdash; {{ . }} {{ end }}
       </p>
     </li>
   </ul>
