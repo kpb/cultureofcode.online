@@ -55,9 +55,9 @@
             <ul class="list-unstyled">
               <li><u>Categories</u></li>
 
-              {{ range sort .Site.Sections "Section" "asc" }}
+              {{ range .Site.Taxonomies.categories }}
               <li>
-                <a href="{{ .Section | relURL }}">{{ .Section }}</a>
+                <a href="{{ .Page.RelPermalink | relURL }}">{{ .Page.LinkTitle }}</a>
               </li>
               {{ end }}
 
