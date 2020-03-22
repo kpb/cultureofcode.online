@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<main role="main" class="container pt-3 main">
+
+  {{.Content}}
+  
+  <ul class="list-unstyled">
+    {{ range .Pages }}
+    <li>
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      <p>
+        <span class="post-meta">{{ .Lastmod.Format "2 January 2006" }}{{ with .Description }} &mdash; {{ . }} {{ end }}
+      </p>
+    </li>
+    {{ end }}
+  </ul>
+
+</main>
+
+{{ end }}
