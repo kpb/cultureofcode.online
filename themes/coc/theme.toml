@@ -3,8 +3,8 @@
 name = "Coc"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
+description = "Cultor of Code Hugo Theme"
+homepage = "https://cultureofcode.com"
 tags = []
 features = []
 min_version = "0.38"
