@@ -1,6 +1,11 @@
 ---
 title: Encryption With Emacs
 date: 2016-01-17
+categories:
+  - dev
+tags:
+  - emacs
+draft: false
 ---
 
 Of course it would be nice to encrypt/decrypt files from Emacs.

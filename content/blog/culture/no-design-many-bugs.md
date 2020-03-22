@@ -1,6 +1,8 @@
 ---
 title: No Design. Many Bugs
 date: 2016-01-26
+category:
+  - culture
 draft: false
 ---
 

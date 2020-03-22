@@ -1,7 +1,9 @@
 ---
 title: Morning Dose of strftime()
 date: 2019-02-27
-description: "%a, %b %d %l:%M.%S WTF??!! Read on..."
+description: "%a, %b %d %l:%M.%S WTF??!!"
+categories:
+  - dev
 draft: false
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: Morning Dose of One Line HTTP Servers
 date: 2017-10-11
+categories:
+  - dev
 draft: false
 ---
 

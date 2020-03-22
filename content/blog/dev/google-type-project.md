@@ -1,6 +1,10 @@
 ---
 title: Morning Dose of Typography - The Google Type Project
 date: 2016-01-26
+categories:
+  - dev
+tags:
+  - typography
 draft: false
 ---
 

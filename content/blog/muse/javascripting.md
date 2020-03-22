@@ -1,6 +1,9 @@
 ---
 title: Javascripting...is this week's muse
 date: 2016-03-04
+description: Learn Javascript by adventuring arount in the terminal.
+categories:
+  - muse
 draft: false
 ---
 

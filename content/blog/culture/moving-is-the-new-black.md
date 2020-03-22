@@ -2,6 +2,8 @@
 title: Moving is the New Black
 date: 2017-10-28
 description: How and why you should work standing up.
+categories:
+  - culture
 draft: false
 ---
 

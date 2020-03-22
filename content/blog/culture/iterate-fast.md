@@ -2,6 +2,8 @@
 title: Iterate Fast
 date: 2017-04-03
 description: Onsi Fakhouri from Pivotal on delivering value by making it easy to ship software.
+categories:
+  - culture
 draft: false
 ---
 

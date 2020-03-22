@@ -1,6 +1,11 @@
 ---
 title: meeting quote of my career
 date: 2016-01-18
+categories:
+  - culture
+tags:
+  - testing
+  - agile
 draft: false
 ---
 

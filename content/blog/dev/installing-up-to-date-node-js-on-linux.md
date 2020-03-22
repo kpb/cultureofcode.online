@@ -1,6 +1,10 @@
 ---
 title: Installing Up-To-Date Node.js on Linux
 date: 2016-03-18
+categories:
+  -- dev
+tags:
+  - nodejs
 draft: false
 ---
 

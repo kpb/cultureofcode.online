@@ -1,6 +1,8 @@
 ---
 title: Flexible Height, Responsive, Sticky Footers
 date: 2019-05-15
+categories:
+  - dev
 draft: false
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: Remark...is this week's muse
 date: 2016-02-24
+description: Civilized browser based presentation tool
+categories:
+  - muse
 draft: false
 ---
 

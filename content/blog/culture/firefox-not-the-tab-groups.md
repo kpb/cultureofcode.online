@@ -1,6 +1,10 @@
 ---
 title: Not The Tab Groups, Firefox!
 date: 2016-02-02
+categories:
+  - culture
+tags:
+  - firefox
 draft: false
 ---
 

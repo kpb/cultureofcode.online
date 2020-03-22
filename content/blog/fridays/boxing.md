@@ -2,6 +2,8 @@
 title: Friday's Diversion - Boxing
 date: 2016-02-26
 description: A beautiful short film on the sweet science.
+categories:
+  - fridays
 draft: false
 ---
 
