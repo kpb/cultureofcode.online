@@ -1,7 +1,6 @@
 ---
 title: About
 date: 2019-03-18
-layout: page
 draft: false
 ---
 
