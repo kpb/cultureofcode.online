@@ -7,7 +7,7 @@ description = "Cultor of Code Hugo Theme"
 homepage = "https://cultureofcode.com"
 tags = []
 features = []
-min_version = "0.38"
+min_version = "0.41"
 
 [author]
   name = "Kenneth Bowen"
