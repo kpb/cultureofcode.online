@@ -1,7 +1,7 @@
 ---
 title: Unix as Literature
 date: 2016-01-18
-description: UNIX remains rooted in the culture of the world.
+description: UNIX remains rooted in the culture of the word.
 draft: false
 ---
 
