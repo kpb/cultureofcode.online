@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="page-row page-row-expanded">
+  <main role="main" class="container pt-3 main">
+
+    <h2>{{ .Title }}</h2>
+    <p class="post-meta">
+      by <a href="{{ .Site.Params.authorUrl }}">{{ .Site.Params.authorDisplayName }}</a> |
+      {{ with .Params.categories }} posted in
+      {{ range . }}
+      <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> |
+      {{ end }}
+      {{ end }}
+
+      {{ .Lastmod.Format "2 January 2006" }}
+    </p>
+
+    <!-- whatever's in the post's md file -->
+    {{ .Content }}
+
+  </main>
+</div>
+
+{{ end }}
