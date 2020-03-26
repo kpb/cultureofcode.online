@@ -7,34 +7,26 @@ tags:
   - remote
   - distributed
 description: COVID-19 got you working from home? A Collection of tips and resources.
-draft: true
+draft: false
 ---
 
-With the COVID-19 pandemic, many of us are lucky enough to be able to work from home. The good news is, for high
-performance companies and teams, this is nothing new. There are examples of happy, high performance teams that have
-embraced distributed work. Some of them have been working this way for more than 20 years and have documented
-their tools, practices, and techniques.
+With the outbreak of the COVID-19 virus, a lot of us are lucky enough to be able to work from home. While it's great we
+don't have to worry about losing our income in the short term, being forced into working from home is still stressful
+and likely to impact our team/org/company productivity. There are plenty of examples of high performance companies and
+teams that have embraced distributed work. Some of them have been working this way for more than 20 years and have
+documented their tools, practices, and techniques. Let's learn from them.
 
-I'm hearing a lot of negative talk, mostly from management inexperienced with distributed work, assuming a reduction in
-productivity. Of course anything new or stressful will reduce productivity for a short while. But, it might be more
-helpful to embrace these good practices and tools to establish a culture of distributed 'remote first' working that will
-serve you, your teams, and your company long after the pandemic has slowed down. If being forced to work remotely is
-disruptive, take the chance to fundamentally improve the way you work.
+I'm hearing a lot of negative talk about reduced productivity, mostly from management inexperienced with distributed
+work. Of course anything new or stressful will reduce productivity for a short while. But, it might be more helpful to
+embrace good practices and tools towards establishing a culture of distributed 'remote-first' working that will serve
+you, your teams, and your company long after the pandemic has slowed down. If being forced to work remotely is going to
+be disruptive, take the chance to fundamentally improve the way you work.
 
 ### Terminology
 
 I'm preferring the term _distributed_ vice _remote_, _work-from-home_, or _telecommute_ intentionally. Distributed
-connotes an all-in, remote-first philosophy and an all-employee inclusiveness, as opposed to a we're here in the real
+connotes an all-in, remote-first philosophy and an every-employee inclusiveness, as opposed to a we're here in the real
 office and you're over there pretending to work in your pajamas.
-
-There are good reasons to establish a distributed work culture beyond slowing the spread of a virus.
-
-- It will amplify ineffective communication and force you to improve how you communicate as a company/team.
-- You can hire the best people, wherever they are.
-- You will spend less time commuting and can use that time for work and/or not burning out.
-- For development teams, it will require you to look at your tools and processes and you'll likely find those that
-  support distributed work have lots of other advantages. (Using a sane [pull-request/code
-  review][github-pull-request] process, for example.)
 
 ### Practices
 
@@ -46,13 +38,15 @@ make sense to do it now.
 > Motivated people do not need to be monitored. In fact, a culture of monitoring will turn motivated people into
   unmotivated people. If you don't have motivated people, look at your management culture. -- Allen Holub
 
-Do continue whatever it was you were doing before: Daily stand-ups, Scrums, etc.
+Do continue whatever it was you were doing before: Daily stand-ups, Scrums, etc. Watch the progress of what needs to get
+done, not exactly when it's being worked on.
 
 #### Company Support
 
 The best tools are remarkably inexpensive. Collaboration tools like [Slack][slack], [Zoom][zoom], [Basecamp][basecamp],
 and a [good headset][sennheiser-sc30] can make a huge difference when everyone is distributed. All of this is cheaper
-than the overhead of poor communication.
+than the overhead of poor communication. Is your network and vpn robust enough to support this surge in use? Do
+employees need anything at home such as monitors, ergonmic workstations, etc.?
 
 #### Meetings
 
@@ -83,14 +77,21 @@ Use video if at all possible - so much of our communication is non-verbal.
 
 #### Kindness
 
-Getting sent home to work remotely would be stressful enough. Being forced into it overnight due to global health crisis
-is a really big deal that is going to make a lot of us understandably anxious. Alice Goldfuss wrote an [insightful
-article][remote-work-in-the-time-of-covid19] full of both great tips on distributed working, but also some supportive
-advice an coping with this drastic, overnight change.
+Getting sent home to work remotely without any prior planning would be stressful. Being forced into it overnight due to
+global health crisis is a really big deal that is going to make a lot of us understandably anxious. Alice Goldfuss wrote
+an [insightful article][remote-work-in-the-time-of-covid19] full of both great tips on distributed working and
+supportive advice on coping with this drastic, overnight change.
 
 #### References
 
 I hope you can find something helpful in these references.
+
+##### Video
+
+- Fried, Json and Heinemeier Hansson, David. "Going Remote: Basecamp Walthrough Livestream."
+  March 2020. https://www.pscp.tv/w/1OyKAYOreqgKb.
+
+  A must watch video on how the creators of [Basecamp][basecamp] work remotely.
 
 ##### Online Information
 
@@ -125,9 +126,9 @@ I hope you can find something helpful in these references.
 
   Interesting guide on remote mob programming; how to code at home without feeling alone. Much of the advice in this is
   useful for any type of remote development team.
-  
+
 - Remote.Co. https://remote.co/qa-leading-remote-companies/
-  
+
   Q&A with a bunch of leading remote and virtual companies. Topics on everything from managing and working remotely,
   hiring, to productivity insights.
 
