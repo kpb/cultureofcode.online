@@ -7,7 +7,7 @@ categories:
 draft: false
 ---
 
-`%a, %b %d %l:%M.%S` WTF??!! If you need a quick way to find or visualize _conversion specifications_, visit
+`%a, %b %d %l:%M.%S` WTF??!!<!--more--> If you need a quick way to find or visualize _conversion specifications_, visit
  [strftime][strftime]. If you don't know what any of this is, [read this][hope].
 
 
