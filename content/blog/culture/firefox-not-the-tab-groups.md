@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-I'm dismayed to see that tab-groups is scheduled to be removed from Firefox (announcement
+I'm dismayed to see that tab-groups is scheduled to be removed from Firefox<!--more--> (announcement
 [here](https://support.mozilla.org/en-US/kb/tab-groups-removal)). It's one of my favorite Firefox features and a big
 reason I don't use Chrome, the other being support for privacy in the [Mozilla
 Manifesto](https://www.mozilla.org/en-US/about/manifesto/). I always have a pile of tab-groups open:

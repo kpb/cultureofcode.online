@@ -9,6 +9,6 @@ tags:
 draft: false
 ---
 
-> We [development] need to test our features. We can't rely on QE for this. 
-
--- random developer having an agile awakening
+> We [development] need to test our features. We can't rely on QE for this.<!--more-->
+>
+> -- random developer having an agile awakening

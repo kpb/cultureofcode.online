@@ -13,7 +13,7 @@
       <div class="card" h-100>
         <div class="card-body">
           <h4 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-          <p class="card-text">{{ .Summary }}</p>
+          <p class="card-text">{{ with .Param "description" }} {{ . }} {{ else }} {{ .Summary }} {{ end}}</p>
           <a href="{{ .RelPermalink }}" class="card-link">continue reading...</a>
         </div>
       </div>

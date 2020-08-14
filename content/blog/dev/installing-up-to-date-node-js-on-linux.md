@@ -9,7 +9,7 @@ draft: false
 ---
 
 I'm running a recent version of [XUbuntu](http://xubuntu.org/), and have installed [Node.js](https://nodejs.org/en/) via
-the package manager. But, the version in the Ubuntu repos is horribly out of date:
+the package manager. But, the version in the Ubuntu repos is horribly out of date: <!--more-->
 
 ```bash
 $ nodejs -v
