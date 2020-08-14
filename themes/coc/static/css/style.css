@@ -4,13 +4,13 @@ html {
 }
 
 body {
-  font-family: "Crimson Text", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.9rem;
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: 'Hind', sans-serif;
 }
 
 h1 {
