@@ -6,7 +6,7 @@ category:
 draft: false
 ---
 
-{{< tweet 689901039131070466 >}}
+{{< tweet 689901039131070466 >}}<!--more-->
 
 Let me tell you about SHA-HAHAHAHAHA...
 

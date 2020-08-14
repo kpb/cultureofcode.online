@@ -14,9 +14,11 @@ draft: false
 (A weekly featured project/product that will make your short life better.)
 
 We've all been through the drill: Create a release branch. Bump the version number. Merge and delete the release
-branch. Tag the release. What a waste of time. If you're building a project with [Gradle][gradle] and using
-[Git][git], the [Reckon][reckon] plugin can infer your projects version number __without__ having to hard-code it in your
-build files by taking advantage of all the information that is already available in [Git][git].
+branch. Tag the release. What a waste of time. <!--more-->
+
+If you're building a project with [Gradle][gradle] and using [Git][git], the [Reckon][reckon] plugin can infer your
+projects version number __without__ having to hard-code it in your build files by taking advantage of all the
+information that is already available in [Git][git].
 
 [Reckon][reckon] has [pretty great documentation][reckon-doc], but here's a couple of use cases you can run through
 yourself to get a feel for using it.

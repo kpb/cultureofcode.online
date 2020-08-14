@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-Of course it would be nice to encrypt/decrypt files from Emacs.
+Of course it would be nice to encrypt/decrypt files from Emacs.<!--more-->
 [EasyPG](http://epg.osdn.jp/) comes with GNU Emacs since Emacs23 (source file: epa-file.el). Simply add to your init file:
 
 ```emacslisp

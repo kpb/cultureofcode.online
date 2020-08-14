@@ -6,7 +6,7 @@ categories:
 draft: false
 ---
 
-When you need to serve something up from the command line.
+When you need to serve something up from the command line.<!--more-->
 
 We've all done something like:
 

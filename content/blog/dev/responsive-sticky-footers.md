@@ -7,7 +7,7 @@ draft: false
 ---
 
 Your web page has a header, some content, and a footer. If the content isn't vertically long enough to push the footer
-down, the footer ends up in the middle of the page - ugly! A lot of solutions use a fixed height footer, which is great
+down, the footer ends up in the middle of the page - ugly!<!--more--> A lot of solutions use a fixed height footer, which is great
 until you load the page in a phone or a tablet.
 
 

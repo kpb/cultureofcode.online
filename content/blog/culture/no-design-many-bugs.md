@@ -9,7 +9,7 @@ draft: false
 > Without requirements or design, programming is the art of adding bugs to an empty text file.
 
 -- Louis Srygley
-
+<!--more-->
 
 See also,
 [21 Rules of Thumb for Managing Software People and Teams](http://www.informit.com/articles/article.aspx?p=1984066)

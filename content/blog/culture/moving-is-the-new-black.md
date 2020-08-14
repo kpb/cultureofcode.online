@@ -7,7 +7,7 @@ categories:
 draft: false
 ---
 
-Sitting for long periods will wreck your body in a whole bunch of alarming ways. This excellent video explains how bad
+Sitting for long periods will wreck your body in a whole bunch of alarming ways.<!--more--> This excellent video explains how bad
 it really is, and has a few suggestions for avoiding the worst of the damage we are doing to ourselves.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wUEl8KrMz14" frameborder="0" allowfullscreen></iframe>

@@ -12,9 +12,9 @@ draft: false
 
 With the outbreak of the COVID-19 virus, a lot of us are lucky enough to be able to work from home. While it's great we
 don't have to worry about losing our income in the short term, being forced into working from home is still stressful
-and likely to impact our team/org/company productivity. There are plenty of examples of high performance companies and
-teams that have embraced distributed work. Some of them have been working this way for more than 20 years and have
-documented their tools, practices, and techniques. Let's learn from them.
+and likely to impact our team/org/company productivity.<!--more--> There are plenty of examples of high performance
+companies and teams that have embraced distributed work. Some of them have been working this way for more than 20 years
+and have documented their tools, practices, and techniques. Let's learn from them.
 
 I'm hearing a lot of negative talk about reduced productivity, mostly from management inexperienced with distributed
 work. Of course anything new or stressful will reduce productivity for a short while. But, it might be more helpful to
