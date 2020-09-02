@@ -1,5 +1,5 @@
 ---
-title: "Lean Coffee Meeting...is this weeks muse"
+title: "Lean Coffee...is this weeks muse"
 date: 2020-08-25
 categories:
   - muse
