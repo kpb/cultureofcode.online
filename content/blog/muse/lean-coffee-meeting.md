@@ -17,9 +17,9 @@ haphazard and often pointless meetings, this same behavior has been its own plag
 'new meeting request.'
 
 The co-creators of [Lean Coffee][lean-coffee], [Jim Benson][jim-benson] and [Jeremy Lightsmith][jeremy-lightsmith],
-wanted to start a group without a lot of overhead and pre planning. But, the meeting should still be useful to the
-participants who are giving their time; _it should be enough to show up and want to learn and create_. They came up with
-a meeting format that is easy to learn and easy to facilitate.
+wanted to start a discussion group without a lot of overhead and pre planning. But, the meeting should still be useful
+to the participants who are giving their time; _it should be enough to show up and want to learn and create_. They came
+up with a meeting format that is easy to learn and easy to facilitate.
 
 The [Lean Coffee][lean-coffee] page does a great job of explaining how to structure a lean coffee meeting and should be
 enough to get you started with the idea of collaboratively creating an agenda and selecting which topics you're going to
