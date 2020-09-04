@@ -30,7 +30,9 @@ google doc, or even a text file to mimic sticky notes or index cards. Here's an 
 be drawn in less than a minute. Use a row of asterisks to indicate the number of votes for each topic and your agenda is
 done and agreed upon.
 
-{{< figure src="/image/leancoffee-skype.png" width="800" >}}
+{{< rawhtml >}}
+  <img src="/image/leancoffee-skype.png" class="img-fluid" />
+{{</ rawhtml >}}
 
 Instead of inflicting another aimless, agenda-less meeting on your co-workers, try and see if this technique can bring
 some small amount of organization, ownership, and purpose to _other epidemic_ of the modern workplace.
