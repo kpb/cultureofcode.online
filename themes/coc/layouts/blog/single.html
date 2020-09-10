@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <div class="page-row page-row-expanded">
-  <main role="main" class="container pt-3 main">
+  <main role="main" class="container py-5 main">
 
-    <h2>{{ .Title }}</h2>
+    <h2 class="pb-3">{{ .Title }}</h2>
     <p class="post-meta">
       by <a href="{{ .Site.Params.authorUrl }}">{{ .Site.Params.authorDisplayName }}</a> |
       {{ with .Params.categories }} posted in
