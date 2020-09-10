@@ -22,81 +22,73 @@
   </head>
   <body>
 
-    <div class="page-row">
-      <header class="container header py-3">
-        <div class="row">
-          <div class="col-md-10"><h1 class="display-3"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1></div>
-          <div class="col-md-2 text-right"><h2 class="display-4"><a href="{{ "about" | absURL }}">about</a></h2></div>
-        </div>
-      </header>
-    </div>
-
-    <div class="container-fluid border-bottom"></div>
+    <header class="container header py-3 mb-5 border-bottom">
+      <div class="row">
+        <div class="col-md-10"><h1 class="display-3"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1></div>
+        <div class="col-md-2 text-right"><h2 class="display-4"><a href="{{ "about" | absURL }}">about</a></h2></div>
+      </div>
+    </header>
 
     {{ block "main" . }}
 
     {{ end }}
 
-    <div class="container-fluid border-bottom"></div>
+    <footer class="container footer pt-5 mt-5 font-weight-light border-top">
+      <div class="row">
 
-    <div class="page-row">
-      <footer class="container footer pt-3 font-weight-light">
-        <div class="row">
-
-          <div class="col-md-6">
-            <p>Digital fuel for an empty tank world.</p>
-            <p>
-              A curated guide through the wilderness of technology, agile methods, and development tools.
-            </p>
-            <p><em>Fire for the culture of code.</em></p>
-          </div>
-
-          <div class="col-md-3">
-            <ul class="list-unstyled">
-              <li><u>Categories</u></li>
-
-              {{ range .Site.Taxonomies.categories }}
-              <li>
-                <a href="{{ .Page.RelPermalink | relURL }}">{{ .Page.LinkTitle }}</a>
-              </li>
-              {{ end }}
-
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul class="fa-ul list-unstyled">
-              <li>
-                <span class="fa-li"><i class="fas fa-rss-square"></i></span>
-                subscribe <a href="{{ "index.xml" | absURL }}">via RSS</a>
-              </li>
-              <li>
-                <span class="fa-li"><i class="fas fa-envelope-square"></i></span>
-                <a href="mailto:hello@cultureofcode.com">hello@cultureofcode.com</a>
-              </li>
-              <li>
-                <span class="fa-li"><i class="fab fa-twitter"></i></span>
-                <a href="https://twitter.com/kennethpbowen">kennethpbowen</a>
-              </li>
-              <li>
-                <span class="fa-li"><i class="fab fa-github"></i></span>
-                <a href="https://github.com/kpb">kpb</a>
-              </li>
-            </ul>
-          </div>
-
-        </div> <!-- end row -->
-
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-              <small>
-                <a href="https://cultureofcode.com">Culture of Code</a> by <a href="mailto:kenneth@kennethbowen.com">Kenneth Bowen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            </p>
-          </div>
+        <div class="col-md-6">
+          <p>Digital fuel for an empty tank world.</p>
+          <p>
+            A curated guide through the wilderness of technology, agile methods, and development tools.
+          </p>
+          <p><em>Fire for the culture of code.</em></p>
         </div>
-      </footer>
-    </div>
+
+        <div class="col-md-3">
+          <ul class="list-unstyled">
+            <li><u>Categories</u></li>
+
+            {{ range .Site.Taxonomies.categories }}
+            <li>
+              <a href="{{ .Page.RelPermalink | relURL }}">{{ .Page.LinkTitle }}</a>
+            </li>
+            {{ end }}
+
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul class="fa-ul list-unstyled">
+            <li>
+              <span class="fa-li"><i class="fas fa-rss-square"></i></span>
+              subscribe <a href="{{ "index.xml" | absURL }}">via RSS</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-envelope-square"></i></span>
+              <a href="mailto:hello@cultureofcode.com">hello@cultureofcode.com</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fab fa-twitter"></i></span>
+              <a href="https://twitter.com/kennethpbowen">kennethpbowen</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fab fa-github"></i></span>
+              <a href="https://github.com/kpb">kpb</a>
+            </li>
+          </ul>
+        </div>
+
+      </div> <!-- end row -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            <small>
+              <a href="https://cultureofcode.com">Culture of Code</a> by <a href="mailto:kenneth@kennethbowen.com">Kenneth Bowen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
