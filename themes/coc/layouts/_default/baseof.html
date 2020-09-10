@@ -22,22 +22,18 @@
   </head>
   <body>
 
-    <header class="container header py-3">
+    <header class="container header py-3 mb-5 border-bottom">
       <div class="row">
         <div class="col-md-10"><h1 class="display-3"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1></div>
         <div class="col-md-2 text-right"><h2 class="display-4"><a href="{{ "about" | absURL }}">about</a></h2></div>
       </div>
     </header>
 
-    <div class="container-fluid border-bottom"></div>
-
     {{ block "main" . }}
 
     {{ end }}
 
-    <div class="container-fluid border-bottom"></div>
-
-    <footer class="container footer pt-3 font-weight-light">
+    <footer class="container footer pt-5 mt-5 font-weight-light border-top">
       <div class="row">
 
         <div class="col-md-6">
