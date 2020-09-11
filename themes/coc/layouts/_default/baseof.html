@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode }}" class="h-100">
 
   <!-- create partials for head nav footer scripts... -->
   <head>
@@ -37,20 +37,32 @@
 
     <title>{{ .Page.Title }}</title>
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
 
-    <header class="container header py-3 mb-5 border-bottom">
-      <div class="row">
-        <div class="col-md-10"><h1 class="display-3"><a class="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1></div>
-        <div class="col-md-2 text-right"><h2 class="display-4"><a href="{{ "about" | absURL }}">about</a></h2></div>
-      </div>
+    <header class="mb-5">
+      <nav class="navbar navbar-expand-md navbar-light border-bottom">
+        <div class="container">
+        <a class="navbar-brand mr-5 pr-5" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav pl-5 ml-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{ "about" | absURL }}">about</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
     </header>
 
     {{ block "main" . }}
 
     {{ end }}
 
-    <footer class="container footer pt-5 mt-5 font-weight-light border-top">
+    <footer class="footer pt-5 mt-auto font-weight-light border-top">
+      <div class="container">
       <div class="row">
 
         <div class="col-md-6">
@@ -102,8 +114,10 @@
           <p>
             <small>
               <a href="https://cultureofcode.com">Culture of Code</a> by <a href="mailto:kenneth@kennethbowen.com">Kenneth Bowen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </small>
           </p>
         </div>
+      </div>
       </div>
     </footer>
 

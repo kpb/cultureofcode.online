@@ -68,3 +68,17 @@ blockquote {
 .pagination  .current-page {
   color: #333;
 }
+
+/* navbar */
+
+.navbar {
+  font-family: 'Hind', sans-serif;
+}
+
+a.navbar-brand {
+  font-size: 3.0rem;
+}
+
+a.nav-link {
+  font-size: 2.5rem;
+}
