@@ -1,12 +1,20 @@
 baseURL: https://cultureofcode.com/
-languageCode: en-us
+languageCode: en
 title: "Culture of Code"
 theme: coc
 paginate: 7
 
-pygmentsCodefences: true
-pygmentsStyle: friendly
-pygmentsCodefencesGuessSyntax: true
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokailight
+    tabWidth: 2
 
 params:
   authorDisplayName: kenneth
