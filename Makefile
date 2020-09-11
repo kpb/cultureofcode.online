@@ -28,4 +28,4 @@ try:
 # Deploy to prod
 .PHONY: deploy
 deploy: build
-	rsync -avz -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
+	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
