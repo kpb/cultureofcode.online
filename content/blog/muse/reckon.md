@@ -32,8 +32,8 @@ installations.
 
 We are going to build a Java library, working towards version 1.0.0.
 
-```bash
-$ $ mkdir reckon-snapshot-example
+```
+$ mkdir reckon-snapshot-example
 $ cd reckon-snapshot-example
 $ gradle init
 Starting a Gradle Daemon (subsequent builds will be faster)
