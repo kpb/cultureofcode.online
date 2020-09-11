@@ -5,6 +5,8 @@ lastmod: 2020-09-10
 description: Beautiful short ski film from DPS Skis.
 categories:
  - fridays
+images:
+ - image/twitter/reverie-film.png
 draft: false
 ---
 
