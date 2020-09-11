@@ -32,7 +32,7 @@ installations.
 
 We are going to build a Java library, working towards version 1.0.0.
 
-```
+```sh
 $ mkdir reckon-snapshot-example
 $ cd reckon-snapshot-example
 $ gradle init
