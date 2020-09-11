@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-<main role="main" class="container py-5 main">
+<main role="main" class="flex-shrink-0">
+  <div class="container">
 
   <h2 class="pb-3">{{ .Title }}</h2>
   <p class="post-meta">
@@ -16,7 +17,7 @@
 
   <!-- whatever's in the post's md file -->
   {{ .Content }}
-
+  </div>
 </main>
 
 {{ end }}
