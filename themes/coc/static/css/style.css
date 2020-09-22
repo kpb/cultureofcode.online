@@ -1,40 +1,15 @@
 html {
-  font-size: 62.5%;
-  /* 10px, for easy math. e.g. 1.8rem = 18px */
+  font-size: 100%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  font-size: 4.0rem;
-}
-
-h2 {
-  font-size: 3.2rem;
-}
-
-h3 {
-  font-size: 2.8rem;
-}
-
-h4 {
-  font-size: 2.4rem;
-}
-
-h5 {
-  font-size: 2.0rem;
-}
-
-h6 {
-  font-size: 1.6rem;
 }
 
 a {
@@ -44,12 +19,8 @@ a {
 .site-title {
   color: #333;
 }
-footer {
-  font-size: 1.8rem;
-}
 
 .post-meta {
-  font-size: 1.6rem;
   color: #828282;
 }
 
@@ -59,10 +30,6 @@ blockquote {
   padding-left: 1.5rem;
   letter-spacing: -1px;
   font-style: italic;
-}
-
-.pagination > .btn {
-  font-size: 1.4rem;
 }
 
 .pagination  .current-page {
@@ -76,9 +43,9 @@ blockquote {
 }
 
 a.navbar-brand {
-  font-size: 3.0rem;
+  font-size: 2.0rem;
 }
 
 a.nav-link {
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
