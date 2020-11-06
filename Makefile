@@ -1,6 +1,6 @@
 #!/usr/bin/make
 #
-# Deploy Culture of Code
+# Build, test, and deploy Culture of Code
 
 # deploy vars
 DEPLOY_USER = kenbow8
@@ -8,24 +8,27 @@ DEPLOY_HOST = blackandwhitemartini.com
 
 BUILD_DIR = public
 
-# TODO build and serve targets
+.DEFAULT_GOAL := help
 
-# build the site
 .PHONY: build
-build:
+build: ## Build the site.
 	hugo
+
+.PHONY: try
+try: ## Build the site and run a local server on localhost:1313.
+	hugo server -vw
+
+.PHONY: deploy
+deploy: build ## Build and deploy site to production web server.
+	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
 
 # clean up the build
 .PHONY: clean
-clean:
+clean: ## Delete the build directory
 	rm -rf $(BUILD_DIR)
 
-# run a local server on the site
-.PHONY: try
-try:
-	hugo server -vw
-
-# Deploy to prod
-.PHONY: deploy
-deploy: build
-	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
+# Thanks to https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
+.PHONY: help
+help: ## Display help message.
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
+# add | sort | before | awk... for alphabetical order
