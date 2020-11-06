@@ -1,6 +1,7 @@
 ---
 title: "Distributed Work"
 date: 2020-03-22
+lastmod: 2020-11-5
 categories:
   - culture
 tags:
@@ -11,22 +12,23 @@ draft: false
 ---
 
 With the outbreak of the COVID-19 virus, a lot of us are lucky enough to be able to work from home. While it's great we
-don't have to worry about losing our income in the short term, being forced into working from home is still stressful
-and likely to impact our team/org/company productivity.<!--more--> There are plenty of examples of high performance
-companies and teams that have embraced distributed work. Some of them have been working this way for more than 20 years
-and have documented their tools, practices, and techniques. Let's learn from them.
+don't have to worry about losing our income in the short term, being forced into working from home by a global pandemic
+is stressful and likely to impact our team/org/company productivity.<!--more--> There are plenty of examples of high
+performance companies and teams that have embraced distributed work long before they were forced to. Some of them have
+been working this way for more than 20 years and have documented their tools, practices, and techniques. Let's learn
+from them.
 
-I'm hearing a lot of negative talk about reduced productivity, mostly from management inexperienced with distributed
+I hear a lot of negative talk about how unproductive we will be, mostly from management inexperienced with distributed
 work. Of course anything new or stressful will reduce productivity for a short while. But, it might be more helpful to
 embrace good practices and tools towards establishing a culture of distributed 'remote-first' working that will serve
 you, your teams, and your company long after the pandemic has slowed down. If being forced to work remotely is going to
-be disruptive, take the chance to fundamentally improve the way you work.
+be disruptive, take this opportunity to fundamentally improve the way we work.
 
 ### Terminology
 
-I'm preferring the term _distributed_ vice _remote_, _work-from-home_, or _telecommute_ intentionally. Distributed
-connotes an all-in, remote-first philosophy and an every-employee inclusiveness, as opposed to a we're here in the real
-office and you're over there pretending to work in your pajamas.
+I'm intentionally preferring the term _distributed_ versus _remote_, _work-from-home_, or _telecommute_. Distributed
+connotes an all-in, remote-first philosophy; an every-employee inclusiveness, as opposed to a we're here in the real
+office and you're over there pretending to work from home in your pajamas.
 
 ### Practices
 
@@ -36,17 +38,17 @@ Don't fall for the trap of asking people for twice daily statuses by phone or em
 make sense to do it now.
 
 > Motivated people do not need to be monitored. In fact, a culture of monitoring will turn motivated people into
-  unmotivated people. If you don't have motivated people, look at your management culture. -- Allen Holub
+  unmotivated people. If you don't have motivated people, look at your management culture. -- [Allen Holub][allen-holub]
 
-Do continue whatever it was you were doing before: Daily stand-ups, Scrums, etc. Watch the progress of what needs to get
-done, not exactly when it's being worked on.
+Do continue whatever it was you were doing before: Daily stand-ups, Scrums, etc. Watch the progress of _what_ needs to get
+done, not exactly _what time_ it's being worked on.
 
 #### Company Support
 
 The best tools are remarkably inexpensive. Collaboration tools like [Slack][slack], [Zoom][zoom], [Basecamp][basecamp],
 and a [good headset][sennheiser-sc30] can make a huge difference when everyone is distributed. All of this is cheaper
-than the overhead of poor communication. Is your network and vpn robust enough to support this surge in use? Do
-employees need anything at home such as monitors, ergonmic workstations, etc.?
+than the overhead of poor communication. Are your network and VPN robust enough to support this surge in use? Do
+employees need anything at home such as monitors, ergonmic workstations, desk lamps, etc.?
 
 #### Meetings
 
@@ -70,8 +72,8 @@ a document, they’re not pulling it out of a file folder and passing it around 
 loop
 
 In my experience, video is important. But, audio quality is even more important. Get a headset. I have a [Sennheiser
-headset][sennheiser-sc30], but there are lots of affordable options. I've heard of people having good luck using podcast
-microphones, but I've never tried it.
+headset][sennheiser-sc30], but there are [lots of affordable options][dont-mute-get-a-better-headset]. I've heard of
+people having good luck using podcast microphones, but I've never tried it.
 
 Use video if at all possible - so much of our communication is non-verbal.
 
@@ -88,7 +90,7 @@ I hope you can find something helpful in these references.
 
 ##### Video
 
-- Fried, Json and Heinemeier Hansson, David. "Going Remote: Basecamp Walthrough Livestream."
+- Fried, Json and Heinemeier Hansson, David. "Going Remote: Basecamp Walkthrough Livestream."
   March 2020. https://www.pscp.tv/w/1OyKAYOreqgKb.
 
   A must watch video on how the creators of [Basecamp][basecamp] work remotely.
@@ -124,8 +126,9 @@ I hope you can find something helpful in these references.
 
 - Harrer, Simon, et. al. "Remote Mob Programming." Github Page. 2019. https://github.com/remotemobprogramming/remotemobprogramming.github.io.
 
-  Interesting guide on remote mob programming; how to code at home without feeling alone. Much of the advice in this is
-  useful for any type of remote development team.
+  Interesting guide on remote mob programming; how to code at home without feeling alone. Much of the advice in this
+  guide is
+  useful for any type of remote development team, even if you aren't mob programming (yet!).
 
 - Remote.Co. https://remote.co/qa-leading-remote-companies/
 
@@ -161,3 +164,7 @@ I hope you can find something helpful in these references.
 [remote-work-in-the-time-of-covid19]: https://blog.alicegoldfuss.com/work-in-the-time-of-corona/
 
 [know-your-team]: https://knowyourteam.com "Know Your Team"
+
+[allen-holub]: https://twitter.com/allenholub "Allen Holub"
+
+[dont-mute-get-a-better-headset]: https://ma.tt/2020/03/dont-mute-get-a-better-headset/ "Matt on Headsets"
