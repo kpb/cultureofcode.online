@@ -3,6 +3,8 @@ languageCode: en
 title: "Culture of Code"
 theme: coc
 paginate: 7
+ignoreErrors:
+  - "error-remote-getjson"
 
 markup:
   highlight:
