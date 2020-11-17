@@ -2,7 +2,7 @@ baseURL: https://cultureofcode.com/
 languageCode: en
 title: "Culture of Code"
 theme: coc
-paginate: 7
+paginate: 9
 ignoreErrors:
   - "error-remote-getjson"
 
@@ -22,4 +22,3 @@ params:
   authorDisplayName: kenneth
   authorUrl: https://kennethbowen.com
   authorEmail: kenneth@kennethbowen.com
-  description: "Digital fuel for an empty tank world"
