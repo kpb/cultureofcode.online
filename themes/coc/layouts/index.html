@@ -5,25 +5,15 @@
   <!-- whatever's in content/_index.md -->
   {{ .Content }}
 
-  <div class="row row-cols-1 row-cols-md-3">
-    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "blog") }}
     {{ range $paginator.Pages }}
 
-    <div class="col mb-4">
-      <div class="card h-100">
-        <h4 class="card-header"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-        <div class="card-body">
-          <p class="card-text">{{ with .Param "description" }} {{ . }} {{ else }} {{ .Summary }} {{ end}}</p>
-          <a href="{{ .RelPermalink }}" class="card-link">continue reading...</a>
-        </div>
-      </div>
-    </div>
-    
-    {{ end }}
-  </div>
+  <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+  <p class="mb-4">{{ with .Param "description" }} {{ . }} {{ else }} {{ .Summary }} {{ end}}</p>
+  
+  {{ end }}
 
   <div class="pagination pb-3">
-
     <p>
       {{ range $paginator.Pagers }}
       <a class="ml-2{{ if eq . $paginator }} current-page{{ end }}" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>&nbsp;&nbsp;|
