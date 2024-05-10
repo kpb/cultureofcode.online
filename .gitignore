@@ -1,2 +1,2 @@
-# Hugo output dir
+.hugo_build.lock
 public
