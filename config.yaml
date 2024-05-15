@@ -17,6 +17,9 @@ markup:
     noClasses: true
     style: monokailight
     tabWidth: 2
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   authorDisplayName: kenneth

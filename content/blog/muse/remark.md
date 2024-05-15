@@ -16,13 +16,11 @@ standards like html5 and css. One that lets you easily collaborate, share, and d
 There are a bunch of [html based presentation tools](https://gist.github.com/vasilisvg/1611562), but
 [Remark](https://github.com/gnab/remark) is one of the most enjoyable to use.
 
-<iframe src="https://remarkjs.com/#1"  width="560" height="315" frameborder="0"></iframe>
+Visit the [Remark presentation](http://gnab.github.io/remark/#1) and left/right arrow through it to see what Remark is,
+how it works, and how to make your own presentation.
 
-You can click in the box and use left-right arrows to move through these slides which explain what Remark is and how to
-get started using it. Or visit the presentation in all its [full sized glory](http://gnab.github.io/remark/#1).
-
-The [GitHub project page](https://github.com/gnab/remark) documents how to get started. For inspiration, check out some
-Remark based presentations:
+The [GitHub project page](https://github.com/gnab/remark) provides complete documentation. For inspiration, check out
+some Remark based presentations:
 
 - [Big Data in Time - Progress and Challenges from Oceanography](http://www.jmlilly.net/talks/bigdata16.html#1)
 - [Busterjs-lightning-talk](http://torgeir.github.io/busterjs-lightning-talk/#1)
