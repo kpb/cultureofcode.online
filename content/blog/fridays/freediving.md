@@ -4,7 +4,7 @@ date: 2016-03-04
 description: Freediving with Guillaume Néry
 categories:
   - fridays
-draft: false
+draft: true
 ---
 
 _...because there's more to life than technology._

@@ -4,7 +4,7 @@ date: 2016-02-26
 description: A beautiful short film on the sweet science.
 categories:
   - fridays
-draft: false
+draft: true
 ---
 
 _..because there's more to life than technology._

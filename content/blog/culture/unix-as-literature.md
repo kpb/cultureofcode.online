@@ -4,7 +4,7 @@ date: 2016-01-18
 description: UNIX remains rooted in the culture of the word.
 category:
   - culture
-draft: false
+draft: true
 ---
 
 > "...in a world increasingly dominated by image culture (TV, movies, .jpg files), UNIX remains rooted in the culture of

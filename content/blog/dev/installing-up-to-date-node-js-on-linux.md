@@ -5,7 +5,7 @@ categories:
   - dev
 tags:
   - nodejs
-draft: false
+draft: true
 ---
 
 I'm running a recent version of [XUbuntu](http://xubuntu.org/), and have installed [Node.js](https://nodejs.org/en/) via

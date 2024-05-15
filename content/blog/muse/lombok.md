@@ -4,7 +4,7 @@ date: 2016-07-01
 description: Eliminate boiler plate code with project Lombok
 categories:
  - muse
-draft: false
+draft: true
 ---
 
 _(A weekly featured project/product that will make your short life better.)_

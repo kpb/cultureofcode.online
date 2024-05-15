@@ -5,7 +5,7 @@ categories:
   - dev
 tags:
   - emacs
-draft: false
+draft: true
 ---
 
 Of course it would be nice to encrypt/decrypt files from Emacs.<!--more-->

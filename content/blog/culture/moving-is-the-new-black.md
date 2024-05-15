@@ -4,7 +4,7 @@ date: 2017-10-28
 description: How and why you should work standing up.
 categories:
   - culture
-draft: false
+draft: true
 ---
 
 Sitting for long periods will wreck your body in a whole bunch of alarming ways.<!--more--> This excellent video explains how bad

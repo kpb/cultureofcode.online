@@ -4,7 +4,7 @@ date: 2016-03-04
 description: Learn Javascript by adventuring arount in the terminal.
 categories:
   - muse
-draft: false
+draft: true
 ---
 
 _(A weekly featured project/product that will make your short life better.)_

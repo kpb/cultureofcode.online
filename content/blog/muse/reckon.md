@@ -8,7 +8,7 @@ tags:
 - git
 - release
 description: Reckon is a Gradle plugin to infer your project's version number without the ridiculousness of hard-coding it in build files.
-draft: false
+draft: true
 ---
 
 (A weekly featured project/product that will make your short life better.)

@@ -4,7 +4,7 @@ date: 2016-02-24
 description: Civilized browser based presentation tool
 categories:
   - muse
-draft: false
+draft: true
 ---
 
 _(A weekly featured project/product that will make your short life better.)_

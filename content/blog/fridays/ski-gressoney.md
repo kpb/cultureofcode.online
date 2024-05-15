@@ -7,7 +7,7 @@ categories:
  - fridays
 images:
  - image/twitter/reverie-film.png
-draft: false
+draft: true
 ---
 
 _...because there’s more to life than technology._

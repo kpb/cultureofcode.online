@@ -3,7 +3,7 @@ title: No Design. Many Bugs
 date: 2016-01-26
 category:
   - culture
-draft: false
+draft: true
 ---
 
 > Without requirements or design, programming is the art of adding bugs to an empty text file.

@@ -3,7 +3,7 @@ title: Flexible Height, Responsive, Sticky Footers
 date: 2019-05-15
 categories:
   - dev
-draft: false
+draft: true
 ---
 
 Your web page has a header, some content, and a footer. If the content isn't vertically long enough to push the footer

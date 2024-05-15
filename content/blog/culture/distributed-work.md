@@ -8,7 +8,7 @@ tags:
   - remote
   - distributed
 description: COVID-19 got you working from home? A Collection of tips and resources.
-draft: false
+draft: true
 ---
 
 With the outbreak of the COVID-19 virus, a lot of us are lucky enough to be able to work from home. While it's great we

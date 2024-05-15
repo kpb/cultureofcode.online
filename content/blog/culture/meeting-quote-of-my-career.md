@@ -6,7 +6,7 @@ categories:
 tags:
   - testing
   - agile
-draft: false
+draft: true
 ---
 
 > We [development] need to test our features. We can't rely on QE for this.<!--more-->

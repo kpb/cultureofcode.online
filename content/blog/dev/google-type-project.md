@@ -5,7 +5,7 @@ categories:
   - dev
 tags:
   - typography
-draft: false
+draft: true
 ---
 
 The [Google Fonts](https://www.google.com/fonts) project has a ton of fantastic fonts. But, it can be overwhelming to

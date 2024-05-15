@@ -6,7 +6,7 @@ categories:
 tags:
   - meetings
 description: Coherent and productive meetings with the minimum amount of structure.
-draft: false
+draft: true
 ---
 
 _(A weekly - or thereabouts - featured project/product that will make your life better)_
