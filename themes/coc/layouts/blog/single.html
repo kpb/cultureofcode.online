@@ -3,20 +3,22 @@
 <main role="main" class="flex-shrink-0 mb-5">
   <div class="container">
 
-  <h2 class="pb-3">{{ .Title }}</h2>
-  <p class="post-meta">
-    by <a href="{{ .Site.Params.authorUrl }}">{{ .Site.Params.authorDisplayName }}</a> |
-    {{ with .Params.categories }} posted in
-    {{ range . }}
-    <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> |
-    {{ end }}
-    {{ end }}
+    <h2 class="pb-3">{{ .Title }}</h2>
+    <p class="post-meta">
+      {{ .Lastmod.Format "2 January 2006" }}
+    </p>
 
-    {{ .Lastmod.Format "2 January 2006" }}
-  </p>
+    <p class="post-meta">
+      by <a href="{{ .Site.Params.authorUrl }}">{{ .Site.Params.authorDisplayName }}</a>
+      {{ with .Params.categories }} in
+      {{ range . }}
+      <a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+      {{ end }}
+    </p>
 
-  <!-- whatever's in the post's md file -->
-  {{ .Content }}
+    <!-- whatever's in the post's md file -->
+    {{ .Content }}
   </div>
 </main>
 
