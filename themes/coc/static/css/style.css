@@ -36,6 +36,7 @@ blockquote {
 
 .pagination  .current-page {
   color: #333;
+  text-decoration: none;
 }
 
 footer {

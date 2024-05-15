@@ -16,7 +16,7 @@
   <div class="pagination pb-3">
     <p>
       {{ range $paginator.Pagers }}
-      <a class="ml-2{{ if eq . $paginator }} current-page{{ end }}" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>&nbsp;&nbsp;|
+      <a class="ml-2{{ if eq . $paginator }} current-page{{ end }}" href="{{ .URL | relURL }}">{{ .PageNumber }}</a>&nbsp;&nbsp;...
       {{ end }}
 
       {{ if $paginator.HasNext }}
