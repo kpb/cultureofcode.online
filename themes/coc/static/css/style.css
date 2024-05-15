@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&display=swap');
+
 html {
   font-size: 100%;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Ovo", serif;
   font-size: 1.2rem;
   color: #333;
 }
@@ -34,6 +36,10 @@ blockquote {
 
 .pagination  .current-page {
   color: #333;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* navbar */

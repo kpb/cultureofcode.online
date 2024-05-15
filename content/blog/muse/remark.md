@@ -1,10 +1,10 @@
 ---
 title: Remark...is this week's muse
-date: 2016-02-24
+date: 2024-05-10
 description: Civilized browser based presentation tool
 categories:
   - muse
-draft: true
+draft: false
 ---
 
 _(A weekly featured project/product that will make your short life better.)_
@@ -29,6 +29,6 @@ Remark based presentations:
 
 The [project page](https://github.com/gnab/remark) links to other sample presentations.
 
-Go forth and create the illusion of understanding: 
+Go forth and create the illusion of understanding:
 
 ![Coin Dynamics](http://i.dailymail.co.uk/i/pix/2010/04/28/article-0-09562375000005DC-283_964x699.jpg)
