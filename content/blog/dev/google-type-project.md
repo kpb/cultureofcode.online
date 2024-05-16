@@ -1,11 +1,12 @@
 ---
 title: Morning Dose of Typography - The Google Type Project
 date: 2016-01-26
+lastmod: 2024-05-16
 categories:
   - dev
 tags:
   - typography
-draft: true
+draft: false
 ---
 
 The [Google Fonts](https://www.google.com/fonts) project has a ton of fantastic fonts. But, it can be overwhelming to
