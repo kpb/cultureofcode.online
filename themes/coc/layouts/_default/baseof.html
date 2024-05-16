@@ -76,9 +76,8 @@
         </div>
 
         <div class="col-md-3">
+          <h5>Categories</h5>
           <ul class="list-unstyled">
-            <li>Categories</li>
-
             {{ range .Site.Taxonomies.categories }}
             <li>
               <a href="{{ .Page.RelPermalink | relURL }}">{{ .Page.LinkTitle }}</a>

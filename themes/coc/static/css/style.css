@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ovo&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/*
+   Colors from https://fabianburghardt.de/swisscolors/
+   color: # 0f0a01
+   background: #fbfbfb
+   emphasis: #558a86
+   links: #08327d
+ */
+
 html {
   font-size: 100%;
 }
@@ -8,7 +16,8 @@ html {
 body {
   font-family: "Ovo", serif;
   font-size: 1.2rem;
-  color: #333;
+  color: #0f0a01;
+  background-color: #fbfbfb;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,15 +25,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2a7ae2;
+  color: #08327d;
+  text-decoration: none;
 }
 
-.site-title {
-  color: #333;
+a:hover {
+  color: #08327d;
+  border-bottom: 1px solid #08327d;
 }
 
 .post-meta {
-  color: #828282;
+  color: #558a86;
+  font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
@@ -36,7 +48,7 @@ blockquote {
 }
 
 .pagination  .current-page {
-  color: #333;
+  color: #558a86;
   text-decoration: none;
 }
 
@@ -44,8 +56,12 @@ footer {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* navbar */
+footer footer h1, footer h2 , footer h3,
+footer h4, footer h5, footer h6 {
+  color: #558a86;
+}
 
+/* navbar */
 .navbar {
   font-family: 'Monserrat', sans-serif;
 }
@@ -56,4 +72,18 @@ a.navbar-brand {
 
 a.nav-link {
   font-size: 1.5rem;
+  color: #0f0a01;
+}
+
+a.nav-link:hover {
+  color: #08327d;
+  border-bottom: 1px solid #08327d;
+}
+
+.navbar-brand {
+  color: #558a86;
+}
+
+a.navbar-brand:hover {
+  color: #08327d;
 }
