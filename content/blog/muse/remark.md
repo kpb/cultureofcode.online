@@ -1,7 +1,7 @@
 ---
 title: Remark...is this week's muse
 date: 2024-05-10
-description: Civilized browser based presentation tool
+description: A Civilized browser based presentation tool.
 categories:
   - muse
 draft: false

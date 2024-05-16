@@ -6,6 +6,7 @@ categories:
   - dev
 tags:
   - typography
+description: Explore font pairings with the Google Type Project.
 draft: false
 ---
 
