@@ -9,7 +9,7 @@
     {{ range $paginator.Pages.ByLastmod.Reverse }}
 
   <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-  <p class="mb-4">{{ with .Param "description" }} {{ . }} {{ else }} {{ .Summary }} {{ end}}</p>
+  <p class="mb-4">{{ with .Param "description" }} {{ . }} {{ else }} {{ .Summary | plainify }} {{ end}}</p>
   
   {{ end }}
 
