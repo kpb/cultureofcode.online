@@ -7,7 +7,7 @@ categories:
 draft: false
 ---
 
-_(A weekly featured project/product that will make your short life better.)_
+_(A featured project/product that will make your short life better.)_
 
 You need to make a presentation. Don't use a bloated, [legacy presentation
 tool](https://products.office.com/en-us/powerpoint). Use a modern, browser based slide show creation tool that supports
@@ -23,7 +23,8 @@ The [GitHub project page](https://github.com/gnab/remark) provides complete docu
 some Remark based presentations:
 
 - [Big Data in Time - Progress and Challenges from Oceanography](http://www.jmlilly.net/talks/bigdata16.html#1)
-- [Busterjs-lightning-talk](http://torgeir.github.io/busterjs-lightning-talk/#1)
+- [Python 3 Awesome Features](https://www.asmeurer.com/python3-presentation/slides.html#1)
+- [Groovy BDD](https://judoole.github.io/GroovyBDD/#1)
 
 The [project page](https://github.com/gnab/remark) links to other sample presentations.
 
