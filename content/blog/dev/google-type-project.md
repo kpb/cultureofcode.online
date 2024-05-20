@@ -21,6 +21,7 @@ The github project readme has links to a few excellent typographic resources. Vi
 #### Example Font Pairing
 
 ![Example Font Pairing](/image/font-example.png)
+{class="img-fluid"}
 
 
 ### Resources

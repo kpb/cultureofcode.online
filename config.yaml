@@ -18,8 +18,14 @@ markup:
     style: monokailight
     tabWidth: 2
   goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
+      wrapStandAloneImageWithinParagraph: false
     renderer:
       unsafe: true
+
 
 params:
   authorDisplayName: kenneth
