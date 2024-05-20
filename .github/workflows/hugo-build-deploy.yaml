@@ -1,0 +1,56 @@
+# Build and deploy cultureofcode.com
+#
+name: build-and-deploy
+run-name: ${{ github.actor }} build and deploy kennethbowen.com
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.126.0
+      DEPLOY_USER: "${{ secrets.DEPLOY_USER }}"
+      DEPLOY_HOST: "${{ secrets.DEPLOY_HOST }}"
+      DEPLOY_KEY: "${{ secrets.SSH_DEPLOY_KEY }}"
+
+    steps:
+
+    - name: ssh-keys
+      run: |
+        install -m 600 -D /dev/null ~/.ssh/id_ed25519
+        echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+        ssh-keyscan -H "$DEPLOY_HOST" > ~/.ssh/known_hosts
+
+    - name: Install Hugo
+      run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        # for checking out a theme from a dif repo
+        submodules: recursive
+        fetch-depth: 0
+
+    - name: Build Site
+      env:
+        # For maximum backward compatibility with Hugo modules
+        HUGO_ENVIRONMENT: production
+        HUGO_ENV: production
+        TZ: America/Denver
+      run: |
+        make clean build
+
+    - name: Deploy Site
+      run: |
+        make clean deploy
