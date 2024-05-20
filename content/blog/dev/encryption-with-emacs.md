@@ -1,11 +1,12 @@
 ---
 title: Encryption With Emacs
 date: 2016-01-17
+lastmod: 2024-05-18
 categories:
   - dev
 tags:
   - emacs
-draft: true
+draft: false
 ---
 
 Of course it would be nice to encrypt/decrypt files from Emacs.<!--more-->
@@ -26,7 +27,7 @@ If you're running X and you prefer a non-graphical keyphrase prompt, include in 
 
 ### References
 
-[EasyPG Home Page](http://epg.osdn.jp/).
+[EasyPG User Manual](https://www.gnu.org/software/emacs/manual/html_mono/epa.html). GNU EasyPG Manual.
 
 
 [EmacsWiki EasyPG Entry](http://www.emacswiki.org/emacs/EasyPG). Configuration and troubleshooting info.
