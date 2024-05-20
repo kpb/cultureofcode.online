@@ -2,13 +2,14 @@
 #
 # Build, test, and deploy Culture of Code
 
-# deploy vars
-DEPLOY_USER = kenbow8
-DEPLOY_HOST = blackandwhitemartini.com
-
 BUILD_DIR = public
 
 .DEFAULT_GOAL := help
+
+.PHONY: check-deploy-vars
+check-deploy-vars: ## Ensure deploy vars have been set
+	@[ "${DEPLOY_USER}" ] || ( echo ">> DEPLOY_USER is not set"; exit 1 )
+	@[ "${DEPLOY_HOST}" ] || ( echo ">> DEPLOY_HOST is not set"; exit 1 )
 
 .PHONY: build
 build: ## Build the site.
@@ -19,7 +20,7 @@ try: ## Build the site and run a local server on localhost:1313.
 	hugo server -vw
 
 .PHONY: deploy
-deploy: build ## Build and deploy site to production web server.
+deploy: check-deploy-vars build ## Build and deploy site to production web server.
 	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
 
 # clean up the build
