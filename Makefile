@@ -21,7 +21,7 @@ try: ## Build the site and run a local server on localhost:1313.
 
 .PHONY: deploy
 deploy: check-deploy-vars build ## Build and deploy site to production web server.
-	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.com
+	rsync -avz --exclude-from .rsyncignore -e ssh --delete $(BUILD_DIR)/ $(DEPLOY_USER)@$(DEPLOY_HOST):cultureofcode.online
 
 # clean up the build
 .PHONY: clean
