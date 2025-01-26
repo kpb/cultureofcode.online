@@ -1,7 +1,7 @@
-# Build and deploy cultureofcode.online
+# Build and deploy cultureofcode.net
 #
 name: build-and-deploy
-run-name: ${{ github.actor }} build and deploy cultureofcode.online
+run-name: ${{ github.actor }} build and deploy cultureofcode.net
 on:
   push:
     branches:
